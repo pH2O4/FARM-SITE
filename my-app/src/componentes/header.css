@@ -1,0 +1,15 @@
+.Container{
+    display: flex;
+    background-color: #90c546;
+    border-radius: 3px 3px 12px;
+    align-items: baseline;
+
+}
+
+.navbar{
+    background-color: aqua;
+}
+
+.color{ 
+    background-color: #90c546;
+}
