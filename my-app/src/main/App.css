@@ -1,6 +1,6 @@
 :root{
     --header-height: 60px;
-    --footer-height: 40px;
+    --footer-height: 140px;
 }
 
 * {
@@ -17,7 +17,6 @@
     grid-template-areas:
     "header"
     "contente"
-    "contente2"
     "footer";
 height: 100vh;
 }
@@ -27,4 +26,7 @@ header.header{
 }
 content.content{
     grid-area: contente;
+}
+Footer.Footer{
+    grid-area: footer;
 }

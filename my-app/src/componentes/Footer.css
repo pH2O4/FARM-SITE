@@ -1,0 +1,18 @@
+.Footer{
+  font-size: 15px;
+  background-color:  #90c546;
+  display: grid;
+  font-family: sans-serif;
+  grid-template-columns: 600px;
+  grid-template-rows: 500px
+  
+}
+
+h1{ 
+  padding: 7px;
+}
+
+p{
+  margin-left: 10px;
+}
+

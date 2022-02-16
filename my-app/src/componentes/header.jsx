@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css"
 import { Component } from "react";
 
+
 //import react-bootstrap
 import { Navbar, Nav, NavDropdown, Container, button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,7 +14,7 @@ class Header extends Component {
         return (
         <Navbar className="color"  expand="lg">
   <Container className="Container">
-    <Navbar.Brand  href="#home">Fazenda Decisão</Navbar.Brand>
+    <Navbar.Brand  href="/">Fazenda Decisão</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">

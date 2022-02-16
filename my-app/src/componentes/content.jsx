@@ -2,6 +2,7 @@ import React from "react";
 import './content.css'
 import { Component } from "react";
 
+
 //import react-botstrap
 import { Carousel} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';

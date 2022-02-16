@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css"
-import { Component } from "react";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import Footer from "../componentes/Footer"
 
 import Header from "../componentes/header"
 import Content from "../componentes/content"
 
 export default props =>
-
-    <div className="App">
-<Header />
-<Content />
-   </div>
+    <Router>
+        <div className="App">
+        <Header />
+        <Content />
+        <Footer />
+        </div>
+    </Router>
