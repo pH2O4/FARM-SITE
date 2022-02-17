@@ -4,7 +4,7 @@ import { Component } from "react";
 
 
 //import react-bootstrap
-import { Navbar, Nav, NavDropdown, Container, button} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
@@ -27,8 +27,8 @@ class Header extends Component {
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.4">Diversos</NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link  className="link" href="#"><button type="button" className="btn btn-success me-auto">Success</button></Nav.Link>
-        <Nav.Link  className="link" href="#"><button type="button" className="btn btn-success me-auto">Login</button></Nav.Link>
+        <Nav.Link  className="link" href="#"><button type="button" className="btn btn-success me-auto justify-content-end">Cadastro</button></Nav.Link>
+        <Nav.Link  className="link" href="#"><button type="button" className="btn btn-success me-auto justify-content-end">Login</button></Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

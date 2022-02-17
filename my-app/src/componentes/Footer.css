@@ -3,16 +3,11 @@
   background-color:  #90c546;
   display: grid;
   font-family: sans-serif;
-  grid-template-columns: 600px;
-  grid-template-rows: 500px
-  
 }
 
-h1{ 
-  padding: 7px;
+h1{
+  padding: 5px;
 }
-
-p{
+.Ajuste{
   margin-left: 10px;
 }
-
