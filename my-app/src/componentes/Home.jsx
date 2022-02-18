@@ -12,7 +12,6 @@ class Footer extends Component {
         <div className="Home">
         <Header />
         <Content />
-        <Foooter />
         </div>
 
       );
